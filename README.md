@@ -1,2 +1,52 @@
 # UX_UI_HW_19
 Homework 19 with jQuery event listener
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lavet Gripper Portfolio </title>
+    <link href="C:\Users\LFGri\OneDrive\Documents\My Code\Homework\UX_UI_HW_17\css\style.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="navigation">
+        <div class="inline-block"></div>
+        <img src="images/LG.png">
+        <div class="logo"></div>
+        <nav id="navList" class="inline-block">
+        <ul style="list-style-type: none;">
+            <li> About</li>
+            <li>
+                <a href= "file:///C:/Users/LFGri/OneDrive/Documents/My%20Code/My%20Work%20Page/My-Work-Page/workpage.html.html"> 
+                    Work
+                </a>
+            </li>
+            <li>
+                <a href=file:///C:/Users/LFGri/OneDrive/Documents/My%20Code/Homework/Homework%2018/index.html>
+                    Skills
+                </a>
+            </li>
+            <li>Resume</li>
+        </ul>
+        </nav>
+    </header>
+    <section class="heroImg">
+        <p id="logoName">Lavet Gripper</p>
+        <p>UX Designer</p>
+        <p>Creating meaningful experiences through design.</p>
+        <img src="C:\Users\LFGri\OneDrive\Documents\My Code\Homework\UX_UI_HW_17\images\Favorite.jpg" alt="hero image of me" height="600 px" width="400 px">
+        <p>
+        <button>Download Resume</button>
+        </p>
+    </section>
+    <footer>
+        <ul style="list-style-type: none;">
+            <li>Contact</li>
+        </ul>
+    </footer>
+</body>
+
+</html>
