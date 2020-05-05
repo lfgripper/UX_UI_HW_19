@@ -1,0 +1,50 @@
+.inline-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+}
+#navList{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+#logoName{
+    font-family:'Permanent Marker', cursive;
+    font-size: 60px;
+    color: #F7F4F3;
+}
+body{
+    background-color: #F7F4F3;
+    height: 100px;
+}
+header{
+    background-color: #F7F4F3;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+
+    
+}
+section{
+    background-color: #6E1B21;
+    color: #F7F4F3;
+    margin: 20;
+    padding: 20;
+}
+
+li{
+    display: inline-flex;
+   margin: 0px 20px;
+}
+
+.heroImg{
+    border-radius: 25px;
+}
+footer{
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    color: #6E1B21;
+}
