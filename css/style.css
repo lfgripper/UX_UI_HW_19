@@ -1,13 +1,10 @@
-.inline-block{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    
+
+header ul {
+    float: right;
+    color: #6E1B21;
 }
-#navList{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
+header li {
+    display: inline-flex;
 }
 #logoName{
     font-family:'Permanent Marker', cursive;
@@ -22,17 +19,20 @@ header{
     background-color: #F7F4F3;
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
+    padding: 15px;
     font-family: 'Lato', sans-serif;
     font-size: 30px;
-
-    
+  
 }
 section{
     background-color: #6E1B21;
     color: #F7F4F3;
     margin: 20;
     padding: 20;
+}
+
+.content{
+   
 }
 
 li{
